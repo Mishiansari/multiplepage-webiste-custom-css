@@ -1,0 +1,45 @@
+.sur-continer{
+padding-top: 10rem;
+
+}
+.sur-div{
+display:grid;
+gap: 5rem;
+}
+@media(min-width:786px){
+    .sur-div{
+    grid-template-columns: 35%fr,1fr;
+    }
+}
+.sur-img{
+    width: 100%;
+    height: auto;
+}
+@media(min-width:1024px){
+    .sur-img{
+      width: auto;
+        height: 90vh;
+    }
+}
+.sur-div1{
+    align-self: center;
+}
+.sur-heading{
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding-top: 0.75rem;
+    margin-left: 2rem;
+    display: grid;
+}
+@media(min-width:768px){
+    .sur-heading{
+        font-size: 3.75rem;
+    }
+}
+.sur-span{
+    color: #e53e3e;
+}
+.sur-para{
+    color: #4b5563;
+    padding-top: 4rem;
+}

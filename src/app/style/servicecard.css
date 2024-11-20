@@ -1,0 +1,30 @@
+.ser-continer{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+.ser-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ser-div{
+    text-transform: uppercase;
+}
+.ser-div1{
+    display: flex;
+    gap: 0.5rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+}
+.ser-dev2{
+    background-color: #c53030;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.ser-p{
+    font-size: 14px;
+    color: #4b5563;
+}

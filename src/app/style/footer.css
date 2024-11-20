@@ -1,0 +1,36 @@
+.footer-container{
+    padding-top: 40px;
+}
+.ft-div{
+    display: grid;
+    gap: 64px;
+}
+@media(min-width:768px){
+    .ft-div{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.ft-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.ft-heading{
+    font-size: 20px;
+   font-weight: 700;
+}
+.ft-para{
+    line-height: 1.8;
+}
+.ft-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.ft-div3{
+    display: flex;
+    gap: 32px;
+    color: #e53e3e;
+    font-size: 24px;
+    padding-top: 64px;
+}

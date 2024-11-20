@@ -1,0 +1,41 @@
+.nav-container{
+    padding-top: 24px;
+   
+}
+.nav-div{
+display: flex;
+margin-left: 6rem;
+}
+
+.nav-ul{
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 45rem;
+}
+@media(min-width:768px){
+    .nav-ul{
+        display: flex;
+        
+    }
+}
+
+.nav-li:hover{
+    background-color: #c53030;
+}
+.nav-btn{
+    background-color: #ff3737;
+    color: #ffffff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1.5rem;
+    border-color: #ff3737;
+
+}
+@media(min-width:767px){
+    .nav-io{
+        display: none;
+    }
+}

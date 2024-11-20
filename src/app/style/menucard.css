@@ -1,0 +1,20 @@
+.mc-continer{
+    display: flex;
+    gap: 0.5rem;
+}
+.mc-img{
+width: 80px;
+height: 80px;
+}
+.mc-div{
+    display:grid;
+    gap: 0.5rem;
+}
+.mc-p{
+    font-size: 14px;
+    color: #666666;
+    padding-top:0.25rem;
+}
+.mc-p1{
+    color: #e5303e;
+}
